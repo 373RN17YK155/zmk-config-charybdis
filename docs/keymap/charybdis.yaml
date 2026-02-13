@@ -1,4 +1,4 @@
-layout: {cols_thumbs_notation: "444444+5 3+444444"}
+layout: {zmk_keyboard: charybdis, layout_name: default_transform}
 layers:
   Base:
   - {t: ▽, type: trans}
