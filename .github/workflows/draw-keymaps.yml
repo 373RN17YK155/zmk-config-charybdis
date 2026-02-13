@@ -15,3 +15,4 @@ jobs:
     with:
       keymap_patterns: "config/*.keymap"
       output_folder: "docs/keymap"
+      draw_args: "charybdis:'-n 444444+5 3+444444'"
