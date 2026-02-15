@@ -37,7 +37,7 @@
 #include <dt-bindings/input/input-event-codes.h>
 
 &spi0 {
-    status = "disabled";
+    status = "okay";
     compatible = "nordic,nrf-spim";
     pinctrl-0 = <&spi0_default>;
     pinctrl-1 = <&spi0_sleep>;
@@ -60,11 +60,9 @@
     };
 };
 
-/* temporarily disabled for debugging
 / {
   trackball_listener {
     compatible = "zmk,input-listener";
     device = <&trackball>;
   };
 };
-*/
